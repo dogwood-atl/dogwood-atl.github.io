@@ -28,3 +28,9 @@ html {
 	justify-content: center;
 	align-items: center;
 }
+
+#login_error {
+	color: red;
+	font-size: small;
+	display: none;
+}

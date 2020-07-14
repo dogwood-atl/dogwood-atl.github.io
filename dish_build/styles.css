@@ -1,0 +1,80 @@
+body,
+html {
+	height: 100%;
+}
+
+.bg {
+	background-color: #fff;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.side-bar {
+	height: 100%;
+	background: #43472c;
+	padding: 20px;
+	overflow: hidden;
+	position: relative;
+}
+
+.sidenav {
+	height: 100%; /* Full-height: remove this if you want "auto" height */
+	width: 240px; /* Set the width of the sidebar */
+	position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+	z-index: 1; /* Stay on top */
+	top: 0; /* Stay at the top */
+	left: 0;
+	background-color: #43472c; /* Black */
+	overflow-x: hidden; /* Disable horizontal scroll */
+	padding: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+	align-content: center;
+	justify-content: center;
+	margin-top: 20px;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+	color: #ccc;
+}
+
+/* Style page content */
+.main {
+	margin-left: 250px; /* Same as the width of the sidebar */
+	padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+	.sidenav {
+		padding-top: 15px;
+	}
+	.sidenav a {
+		font-size: 18px;
+	}
+}
+
+label {
+	margin-top: 2%;
+}
+
+select {
+	width: 200px;
+	height: 40px;
+	border-color: #ced4da;
+	border-radius: 5px;
+}
+
+#dishDiet {
+	margin-left: 1%;
+	margin-top: 2%;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dogwood Web</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/e2c763752f.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg">
+        <div class="sidenav">
+            <h3 style="background-color: white; text-align: center; padding: 5px; border-radius: 10px;">Dogwood</h3>
+            <a href="../late_plate/late_plate.html">Late Plate Requests</a>
+            <a href="../menu_build/menu_builder.html">Menu Builder</a>
+            <a style="color: #ccc;" href="#">Dish Builder</a>
+            <a href="#">Feedback and Ratings</a>
+        </div>
+        <div class="main">
+            <h2>Dish Builder</h2>
+            <div class="form_dish">
+                <label for="inputDishTitle">Title</label>
+                <input style="width: 300px;" class="form-control" id="inputDishTitle">
+                <label for="inputDishSubtitle">Subtitle</label>
+                <input style="width: 500px;" class="form-control" id="inputDishSubtitle">
+                <label for="diet_rest_selector">Dietary Restriction:</label>
+                <select name="Dietary Restriction" id="dishDiet">
+                    <option value="vegan">Vegan</option>
+                    <option value="kosher">Kosher</option>
+                    <option value="regular">Regular</option>
+                    <option value="vegetarian">Vegetarian</option>
+                </select>
+                <div>
+                    <label for="dishImage">Add an Image</label>
+                    <input type="file" class="form-control-file" id="dishImage">
+                </div>
+                <label for="dishNotes">Notes <span style="color: gray;">(this won't be displayed to users)</span></label>
+                <textarea style="width: 500px;" class="form-control" id="dishNotes" rows="4"></textarea>
+            </div>
+            <button id="add_dish" type="submit" class="btn btn-primary mt-4" style="background-color: #43472C;" data-toggle="modal" data-target="#successModal">Add Dish</button>
+            <div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="successModal" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Success!</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body"><strong>Your dish has been added to the Library.</strong>Check it out on the Menu Builder.</div>
+                        <div class="modal-footer">
+                            <button style="background-color: #43472c;" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

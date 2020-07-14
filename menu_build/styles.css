@@ -1,0 +1,137 @@
+body,
+html {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+.no-js #loader {
+	display: none;
+}
+.js #loader {
+	display: block;
+	position: absolute;
+	left: 100px;
+	top: 0;
+}
+
+.bg {
+	background-color: #fff;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.side-bar {
+	height: 100%;
+	background: #43472c;
+	padding: 20px;
+	overflow: hidden;
+	position: relative;
+}
+
+.sidenav {
+	height: 100%; /* Full-height: remove this if you want "auto" height */
+	width: 240px; /* Set the width of the sidebar */
+	position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+	z-index: 1; /* Stay on top */
+	top: 0; /* Stay at the top */
+	left: 0;
+	background-color: #43472c; /* Black */
+	overflow-x: hidden; /* Disable horizontal scroll */
+	padding: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+	align-content: center;
+	justify-content: center;
+	margin-top: 20px;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+	color: #ccc;
+}
+
+/* Style page content */
+.main {
+	margin-left: 250px; /* Same as the width of the sidebar */
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+	.sidenav {
+		padding-top: 15px;
+	}
+	.sidenav a {
+		font-size: 18px;
+	}
+}
+
+#menu_builder {
+	overflow: scroll;
+	padding: 20px;
+}
+
+#dish_search {
+	background-color: #43472c;
+	padding: 20px;
+	overflow: scroll;
+}
+
+.search_header {
+	color: white;
+}
+
+.dish_card {
+	border-radius: 10px;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: white;
+	margin-bottom: 4%;
+}
+
+.dish_card_title {
+	font-size: x-large;
+	color: black;
+}
+
+.dish_card_subtitle {
+	color: #3c3d3c;
+}
+
+.dish_card_ID {
+	text-align: center;
+	width: 100px;
+	padding: 2px;
+	background: #ccc;
+	color: red;
+	border-radius: 5px;
+}
+
+.dish_card_diet {
+	color: #3c3d3c;
+}
+
+.form-menu {
+	padding: 30px;
+}
+
+.day-1 {
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+select {
+	width: 240px;
+	height: 40px;
+	border-color: #ced4da;
+	border-radius: 5px;
+}

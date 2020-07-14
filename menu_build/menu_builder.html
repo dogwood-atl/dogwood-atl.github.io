@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dogwood Web</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/e2c763752f.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg">
+        <div class="sidenav">
+            <h3 style="background-color: white; text-align: center; padding: 5px; border-radius: 10px;">Dogwood</h3>
+            <a href="../late_plate/late_plate.html">Late Plate Requests</a>
+            <a style="color: #ccc;" href="#">Menu Builder</a>
+            <a href="../dish_build/dish_builder.html">Dish Builder</a>
+            <a href="#">Feedback and Ratings</a>
+        </div>
+        <div class="main">
+            <div class="row">
+                <div class="col-8" id="menu_builder">
+                    <h2>Menu Builder</h2>
+                    <div class="form-menu">
+                        <div class="day-1">
+                                <h4>Today</h4>
+                                <div class="row">
+                                <div class="col-6" style="display: inline flex;">
+                                        <label for="inputLunchID">Lunch</label>
+                                        <input style="width: 300px;" class="form-control" id="inputLunchID">
+                                </div>
+                                <div class="col-6" style="display: inline flex;;">
+                                        <label for="inputDinnerID">Dinner</label>
+                                        <input style="width: 300px;" class="form-control" id="inputDinnerID">
+                                </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-6">
+                                                <label class="mt-3" for="menuHouse">House:&nbsp;</label>
+                                                <select name="House" id="menuHouse">
+                                                        <option value="Chi Psi">Chi Psi</option>
+                                                        <option value="AKPSi">AKPsi</option>
+                                                        <option value="NA North">NA North</option>
+                                                        <option value="NA East">NA East</option>
+                                                    </select>     
+                                        </div>
+                                        <div class="col-6">
+                                                <button id="add_to_menu" type="submit" class="btn btn-primary mt-2" style="background-color: #43472C;" data-toggle="modal" data-target="#successModal">Add to Menu</button>
+                                        </div>
+                                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="successModal" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">Success!</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body"><strong>Your dishes have been added to the Menu</strong></div>
+                                <div class="modal-footer">
+                                    <button style="background-color: #43472c;" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-4" id="dish_search">
+                    <div class="search_header">
+                        <h3>Your Dishes</h3>
+                        <div style="padding: 10px;" id="DW_dish_library">
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

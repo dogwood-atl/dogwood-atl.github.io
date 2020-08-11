@@ -45,10 +45,9 @@ $(document.getElementById('add_to_menu')).click(function() {
 	var dinner = document.getElementById('inputDinnerID').value;
 	var dinner_ID = parseInt(dinner, 10);
 	var house = document.getElementById('menuHouse').value;
-	console.log(lunch_ID);
-	console.log(dinner_ID);
-	console.log(house);
 	post_to_menu(lunch_ID, dinner_ID, house);
+	document.getElementById('inputLunchID').value = '';
+	document.getElementById('inputDinnerID').value = '';
 });
 
 async function post_to_menu(lunch_ID, dinner_ID, house) {

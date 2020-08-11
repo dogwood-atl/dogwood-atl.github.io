@@ -6,6 +6,9 @@ $(document.getElementById('add_dish')).click(function() {
 	var image_name = document.getElementById('dishImage').value;
 	var notes = document.getElementById('dishNotes').value;
 	post_dish(title, subtitle, notes, diet_restriction, image);
+	document.getElementById('inputDishTitle').value = '';
+	document.getElementById('inputDishSubtitle').value = '';
+	document.getElementById('dishNotes').value = '';
 });
 
 async function post_dish(title, subtitle, notes, diet_restriction, fileInput) {

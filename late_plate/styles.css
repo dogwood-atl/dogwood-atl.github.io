@@ -163,3 +163,34 @@ html {
 .house_dis_test {
 	padding-right: 30px;
 }
+
+.regular_meal {
+	font-size: x-large;
+	padding: 2px;
+	background: white;
+	border-radius: 10px;
+}
+
+.vegan_meal {
+	font-size: x-large;
+	padding: 2px;
+	background: greenyellow;
+	border-radius: 10px;
+}
+
+.kosher_meal {
+	font-size: x-large;
+	padding: 2px;
+	background: skyblue;
+	border-radius: 10px;
+}
+
+.house_card {
+	padding: 5px;
+	background-color: #43472c;
+	height: 40px;
+	border-radius: 10px;
+	font-size: larger;
+	color: white;
+	margin-top: 5px;
+}

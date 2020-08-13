@@ -60,7 +60,7 @@ async function post_to_menu(lunch_ID, dinner_ID, house) {
 	var raw = JSON.stringify({
 		meals: [ { recipe: lunch_ID, lunch: 'T', dinner: 'F' }, { recipe: dinner_ID, lunch: 'F', dinner: 'T' } ],
 		house: house,
-		date: '2020-07-14'
+		date: '2020-08-11'
 	});
 
 	var requestOptions = {

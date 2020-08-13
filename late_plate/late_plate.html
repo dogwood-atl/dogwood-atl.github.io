@@ -10,6 +10,9 @@
     <script src="https://kit.fontawesome.com/e2c763752f.js" crossorigin="anonymous"></script>
 </head>
 <body class="bg">
+    <div id="loading">
+        <img id="loading-image" src="../imgs/loader.gif" alt="Loading..." />
+      </div>
         <div class="sidenav">
             <h3 style="background-color: white; text-align: center; padding: 5px; border-radius: 10px;">Dogwood</h3>
             <a style="color: #ccc;" href="#">Late Plate Requests</a>
@@ -27,28 +30,163 @@
                             <div>
                                 <div class="meal_header">Lunch</div>
                                 <div class="sub-card">
-                                    <div id="lunch_late_plate_total_count" class="total_counter"></div>
-                                    <div class="row mt-4 p-3">
-                                        <div id="regular_lunch" class="col-4 text-center regular_meal"></div>
-                                        <div id="vegan_lunch" class="col-4 text-center vegan_meal"></div>
-                                        <div id="kosher_lunch" class="col-4 text-center kosher_meal"></div>
-                                    </div>
+                                    <div id="lunch_late_plate_total_count" class="total_counter">-</div>
+                                    <div style="font-size: larger; font-weight: bold;">&nbspGeorgia Tech</div>
                                     <div class="house_card">
                                         <div class="row">
-                                            <div class="col-10">&nbsp&nbspChi Psi</div>
-                                            <div id="chi_psi_lunch" class="col-2 text-center"></div>
+                                            <div class="col-8">&nbsp&nbspKappa Sig</div>
+                                            <button id="gt_kappa_sig_lunch_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="gt_kappa_sig_lunch" class="col-2 text-center">-</div>
                                         </div>
                                     </div>
                                     <div class="house_card">
                                         <div class="row">
-                                            <div class="col-10">&nbsp&nbspNA North</div>
-                                            <div id="na_north_lunch" class="col-2 text-center"></div>
+                                            <div class="col-8">&nbsp&nbspTheta Chi</div>
+                                            <button id="gt_theta_chi_lunch_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="gt_theta_chi_lunch" class="col-2 text-center">-</div>
                                         </div>
                                     </div>
                                     <div class="house_card">
                                         <div class="row">
-                                            <div class="col-10">&nbsp&nbspAK Psi</div>
-                                            <div id="akpsi_lunch" class="col-2 text-center"></div>
+                                            <div class="col-8">&nbsp&nbspPhi Sig</div>
+                                            <button id="gt_phi_sig_lunch_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="gt_phi_sig_lunch" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspAEPI</div>
+                                            <button id="gt_aepi_lunch_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="gt_aepi_lunch" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspChi Phi</div>
+                                            <button id="gt_chi_phi_lunch_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="gt_chi_phi_lunch" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspPhi Delt</div>
+                                            <button id="gt_phi_delt_lunch_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="gt_phi_delt_lunch" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspSig Nu</div>
+                                            <button id="gt_sig_nu_lunch_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="gt_sig_nu_lunch" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspBeta</div>
+                                            <button id="gt_beta_lunch_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="gt_beta_lunch" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspPi Kapp</div>
+                                            <button id="gt_pi_kapp_lunch_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="gt_pi_kapp_lunch" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspDTD</div>
+                                            <button id="gt_dtd_lunch_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="gt_dtd_lunch" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspATO</div>
+                                            <button id="gt_ato_lunch_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="gt_ato_lunch" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspFiji</div>
+                                            <button id="gt_fiji_lunch_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="gt_fiji_lunch" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspNave</div>
+                                            <button id="gt_nave_lunch_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="gt_nave_lunch" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-2" style="font-size: larger; font-weight: bold;">&nbspTennessee</div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspTN Fiji</div>
+                                            <button id="tn_fiji_lunch_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="tn_fiji_lunch" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspTN Sig Nu</div>
+                                            <button id="tn_sig_nu_lunch_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="tn_sig_nu_lunch" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspTN Pong</div>
+                                            <button id="tn_pong_lunch_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="tn_pong_lunch" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-2" style="font-size: larger; font-weight: bold;">&nbspUGA</div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspUGA Sigma Chi</div>
+                                            <button id="uga_sigma_chi_lunch_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="uga_sigma_chi_lunch" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspUGA Kappa Sig</div>
+                                            <button id="uga_kappa_sig_lunch_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="uga_kappa_sig_lunch" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspUGA Phi Delt</div>
+                                            <button id="uga_phi_delt_lunch_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="uga_phi_delt_lunch" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspUGA Sigma Nu</div>
+                                            <button id="uga_sigma_nu_lunch_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="uga_sigma_nu_lunch" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-2" style="font-size: larger; font-weight: bold;">&nbspBradley</div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspBradley AEPI</div>
+                                            <button id="br_aepi_lunch_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="br_aepi_lunch" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspBradley DU</div>
+                                            <button id="br_du_lunch_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="br_du_lunch" class="col-2 text-center">-</div>
                                         </div>
                                     </div>
                                 </div>
@@ -58,30 +196,165 @@
                             <div>
                                     <div class="meal_header">Dinner</div>
                                     <div class="sub-card">
-                                        <div id="dinner_late_plate_total_count" class="total_counter"></div>
-                                        <div class="row mt-4 p-3">
-                                            <div id="regular_dinner" class="col-4 text-center regular_meal"></div>
-                                            <div id="vegan_dinner" class="col-4 text-center vegan_meal"></div>
-                                            <div id="kosher_dinner" class="col-4 text-center kosher_meal"></div>
+                                        <div id="dinner_late_plate_total_count" class="total_counter">-</div>
+                                        <div style="font-size: larger; font-weight: bold;">&nbspGeorgia Tech</div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspKappa Sig</div>
+                                            <button id="gt_kappa_sig_dinner_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="gt_kappa_sig_dinner" class="col-2 text-center">-</div>
                                         </div>
-                                        <div class="house_card">
-                                            <div class="row">
-                                                <div class="col-10">&nbsp&nbspChi Psi</div>
-                                                <div id="chi_psi_dinner" class="col-2 text-center"></div>
-                                            </div>
+                                    </div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspTheta Chi</div>
+                                            <button id="gt_theta_chi_dinner_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="gt_theta_chi_dinner" class="col-2 text-center">-</div>
                                         </div>
-                                        <div class="house_card">
-                                            <div class="row">
-                                                <div class="col-10">&nbsp&nbspNA North</div>
-                                                <div id="na_north_dinner" class="col-2 text-center"></div>
-                                            </div>
+                                    </div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspPhi Sig</div>
+                                            <button id="gt_phi_sig_dinner_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="gt_phi_sig_dinner" class="col-2 text-center">-</div>
                                         </div>
-                                        <div class="house_card">
-                                            <div class="row">
-                                                <div class="col-10">&nbsp&nbspAK Psi</div>
-                                                <div id="akpsi_dinner" class="col-2 text-center"></div>
-                                            </div>
+                                    </div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspAEPI</div>
+                                            <button id="gt_aepi_dinner_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="gt_aepi_dinner" class="col-2 text-center">-</div>
                                         </div>
+                                    </div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspChi Phi</div>
+                                            <button id="gt_chi_phi_dinner_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="gt_chi_phi_dinner" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspPhi Delt</div>
+                                            <button id="gt_phi_delt_dinner_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="gt_phi_delt_dinner" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspSig Nu</div>
+                                            <button id="gt_sig_nu_dinner_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="gt_sig_nu_dinner" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspBeta</div>
+                                            <button id="gt_beta_dinner_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="gt_beta_dinner" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspPi Kapp</div>
+                                            <button id="gt_pi_kapp_dinner_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="gt_pi_kapp_dinner" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspDTD</div>
+                                            <button id="gt_dtd_dinner_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="gt_dtd_dinner" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspATO</div>
+                                            <button id="gt_ato_dinner_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="gt_ato_dinner" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspFiji</div>
+                                            <button id="gt_fiji_dinner_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="gt_fiji_dinner" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspNave</div>
+                                            <button id="gt_nave_dinner_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="gt_nave_dinner" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-2" style="font-size: larger; font-weight: bold;">&nbspTennessee</div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspTN Fiji</div>
+                                            <button id="tn_fiji_dinner_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="tn_fiji_dinner" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspTN Sig Nu</div>
+                                            <button id="tn_sig_nu_dinner_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="tn_sig_nu_dinner" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspTN Pong</div>
+                                            <button id="tn_pong_dinner_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="tn_pong_dinner" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-2" style="font-size: larger; font-weight: bold;">&nbspUGA</div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspUGA Sigma Chi</div>
+                                            <button id="uga_sigma_chi_dinner_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="uga_sigma_chi_dinner" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspUGA Kappa Sig</div>
+                                            <button id="uga_kappa_sig_dinner_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="uga_kappa_sig_dinner" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspUGA Phi Delt</div>
+                                            <button id="uga_phi_delt_dinner_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="uga_phi_delt_dinner" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspUGA Sigma Nu</div>
+                                            <button id="uga_sigma_nu_dinner_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="uga_sigma_nu_dinner" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-2" style="font-size: larger; font-weight: bold;">&nbspBradley</div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspBradley AEPI</div>
+                                            <button id="br_aepi_dinner_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="br_aepi_dinner" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
+                                    <div class="house_card">
+                                        <div class="row">
+                                            <div class="col-8">&nbsp&nbspBradley DU</div>
+                                            <button id="br_du_dinner_more" class="col-2 text-center btn-more-info btn btn-danger">Expand</button>
+                                            <div id="br_du_dinner" class="col-2 text-center">-</div>
+                                        </div>
+                                    </div>
                                         
                                     </div>
                             </div>
@@ -89,6 +362,22 @@
                     </div>
                 </div>
         </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="fratModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal_title">-</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times</span>
+                        </button>
+                    </div>
+                    <div id="modal_content" class="modal-body"></div>
+                </div>
+            </div>
+        </div>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>

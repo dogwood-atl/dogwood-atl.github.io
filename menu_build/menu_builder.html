@@ -23,7 +23,6 @@
                     <h2>Menu Builder</h2>
                     <div class="form-menu">
                         <div class="day-1">
-                                <h4>Today</h4>
                                 <div class="row">
                                 <div class="col-6" style="display: inline flex;">
                                         <label for="inputLunchID">Lunch</label>
@@ -36,13 +35,9 @@
                                 </div>
                                 <div class="row">
                                         <div class="col-6">
-                                                <label class="mt-3" for="menuHouse">House:&nbsp;</label>
-                                                <select name="House" id="menuHouse">
-                                                        <option value="Chi Psi">Chi Psi</option>
-                                                        <option value="AKPSi">AKPsi</option>
-                                                        <option value="NA North">NA North</option>
-                                                        <option value="NA East">NA East</option>
-                                                    </select>     
+                                            <label for="birthday">Date</label>
+                                            <input type="date" id="menu_date" name="Menu Date">
+                                                  
                                         </div>
                                         <div class="col-6">
                                                 <button id="add_to_menu" type="submit" class="btn btn-primary mt-2" style="background-color: #43472C;" data-toggle="modal" data-target="#successModal">Add to Menu</button>

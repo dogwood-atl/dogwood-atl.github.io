@@ -135,3 +135,7 @@ select {
 	border-color: #ced4da;
 	border-radius: 5px;
 }
+
+#menu_date {
+	margin-top: 10px;
+}

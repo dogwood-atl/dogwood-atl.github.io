@@ -141,14 +141,7 @@ $('#gt_kappa_sig_lunch_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_lunch === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -164,14 +157,7 @@ $('#gt_kappa_sig_dinner_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_dinner === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -187,14 +173,7 @@ $('#gt_theta_chi_lunch_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_lunch === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -210,14 +189,7 @@ $('#gt_theta_chi_dinner_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_dinner === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -233,14 +205,7 @@ $('#gt_fiji_lunch_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_lunch === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -256,14 +221,7 @@ $('#gt_fiji_dinner_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_dinner === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -279,14 +237,7 @@ $('#gt_phi_sig_lunch_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_lunch === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -302,14 +253,7 @@ $('#gt_phi_sig_dinner_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_dinner === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -325,14 +269,7 @@ $('#gt_aepi_lunch_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_lunch === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -348,14 +285,7 @@ $('#gt_aepi_dinner_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_dinner === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -371,14 +301,7 @@ $('#gt_chi_phi_lunch_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_lunch === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -394,14 +317,7 @@ $('#gt_chi_phi_dinner_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_dinner === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -417,14 +333,7 @@ $('#gt_phi_delt_lunch_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_lunch === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -440,14 +349,7 @@ $('#gt_phi_delt_dinner_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_dinner === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -463,14 +365,7 @@ $('#gt_sig_nu_lunch_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_lunch === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -486,14 +381,7 @@ $('#gt_sig_nu_dinner_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_dinner === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -509,14 +397,7 @@ $('#gt_beta_lunch_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_lunch === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -532,14 +413,7 @@ $('#gt_beta_dinner_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_dinner === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -555,14 +429,7 @@ $('#gt_pi_kapp_lunch_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_lunch === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -578,14 +445,7 @@ $('#gt_pi_kapp_dinner_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_dinner === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -601,14 +461,7 @@ $('#gt_dtd_lunch_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_lunch === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -624,14 +477,7 @@ $('#gt_dtd_dinner_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_dinner === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -647,14 +493,7 @@ $('#gt_ato_lunch_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_lunch === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -670,14 +509,7 @@ $('#gt_ato_dinner_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_dinner === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -693,14 +525,7 @@ $('#gt_nave_lunch_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_lunch === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -716,14 +541,7 @@ $('#gt_nave_dinner_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_dinner === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -739,14 +557,7 @@ $('#tn_fiji_lunch_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_lunch === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -762,14 +573,7 @@ $('#tn_fiji_dinner_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_dinner === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -785,14 +589,7 @@ $('#tn_sig_nu_lunch_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_lunch === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -808,14 +605,7 @@ $('#tn_sig_nu_dinner_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_dinner === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -831,14 +621,7 @@ $('#tn_pong_lunch_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_lunch === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -854,14 +637,7 @@ $('#tn_pong_dinner_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_dinner === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -877,14 +653,7 @@ $('#uga_sigma_chi_lunch_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_lunch === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -900,14 +669,7 @@ $('#uga_sigma_chi_dinner_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_dinner === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -923,14 +685,7 @@ $('#uga_kappa_sig_lunch_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_lunch === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -946,14 +701,7 @@ $('#uga_kappa_sig_dinner_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_dinner === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -969,14 +717,7 @@ $('#uga_phi_delt_lunch_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_lunch === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -992,14 +733,7 @@ $('#uga_phi_delt_dinner_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_dinner === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -1015,14 +749,7 @@ $('#uga_sigma_nu_lunch_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_lunch === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -1038,14 +765,7 @@ $('#uga_sigma_nu_dinner_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_dinner === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -1061,14 +781,7 @@ $('#br_aepi_lunch_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_lunch === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -1084,14 +797,7 @@ $('#br_aepi_dinner_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_dinner === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -1107,14 +813,7 @@ $('#br_du_lunch_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_lunch === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});
@@ -1130,14 +829,7 @@ $('#br_du_dinner_more').click(function() {
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_dinner === 'T') {
-				modal.innerHTML +=
-					'<div>' +
-					user_array[i].user.username +
-					'  -  ' +
-					user_array[i].diet +
-					'  -  ' +
-					user_array[i].phone_number +
-					'</div>';
+				modal.innerHTML += '<div>' + user_array[i].user.username + '  -  ' + user_array[i].diet + '</div>';
 			}
 		}
 	});

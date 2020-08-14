@@ -44,13 +44,14 @@ $(document.getElementById('add_to_menu')).click(function() {
 	var lunch_ID = parseInt(lunch, 10);
 	var dinner = document.getElementById('inputDinnerID').value;
 	var dinner_ID = parseInt(dinner, 10);
-	var house = document.getElementById('menuHouse').value;
-	post_to_menu(lunch_ID, dinner_ID, house);
+	var date = document.getElementById('menu_date').value;
+	console.log(date);
+	post_to_menu(lunch_ID, dinner_ID, date);
 	document.getElementById('inputLunchID').value = '';
 	document.getElementById('inputDinnerID').value = '';
 });
 
-async function post_to_menu(lunch_ID, dinner_ID, house) {
+async function post_to_menu(lunch_ID, dinner_ID, date) {
 	var myHeaders = new Headers();
 	myHeaders.append('Origin', 'http://127.0.0.1:8000/');
 	myHeaders.append('Access-Control-Allow-Origin', '*');
@@ -59,8 +60,8 @@ async function post_to_menu(lunch_ID, dinner_ID, house) {
 
 	var raw = JSON.stringify({
 		meals: [ { recipe: lunch_ID, lunch: 'T', dinner: 'F' }, { recipe: dinner_ID, lunch: 'F', dinner: 'T' } ],
-		house: house,
-		date: '2020-08-11'
+		house: 'Admin',
+		date: date
 	});
 
 	var requestOptions = {

@@ -249,7 +249,7 @@ $('#gt_phi_sig_dinner_more').click(function() {
 	document.getElementById('modal_title').textContent = 'GT Phi Sig - Dinner Late Plates';
 	get_users('GT_Phi_Sig').then((response) => response.text()).then((result) => {
 		var user_lib = JSON.parse(result);
-		user_array = user_lib.GT_Kappa_Sig;
+		user_array = user_lib.GT_Phi_Sig;
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_dinner === 'T') {
@@ -313,7 +313,7 @@ $('#gt_chi_phi_dinner_more').click(function() {
 	document.getElementById('modal_title').textContent = 'GT Chi Phi - Dinner Late Plates';
 	get_users('GT_Chi_Phi').then((response) => response.text()).then((result) => {
 		var user_lib = JSON.parse(result);
-		user_array = user_lib.GT_Kappa_Sig;
+		user_array = user_lib.GT_Chi_Phi;
 		var modal = document.getElementById('modal_content');
 		for (i = 0; i < user_array.length; i++) {
 			if (user_array[i].late_plate_dinner === 'T') {
